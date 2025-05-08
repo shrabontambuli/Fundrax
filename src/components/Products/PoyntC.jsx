@@ -11,12 +11,12 @@ const PoyntC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-5">
           <div className="space-y-10 p-4">
             <h2 className="text-3xl lg:text-5xl font-bold text2">
-              A920 Android SmartPOS
+            Poynt C Smart Terminal
             </h2>
             <p className="text-gray-600 text-xl">
-              The revolutionary terminal that started it all. The A920 combines
-              the full features of an Android tablet with a powerful POS payment
-              terminal, all in a sleek and compact design.
+            The Poynt C Smart Terminal is an all-in-one payment solution
+              designed to simplify business operations while enhancing the
+              customer experience. Here are its key features and specifications:
             </p>
             <Link to="/contact">
               <button className="btn1 mt-12">Get Started</button>
@@ -25,7 +25,7 @@ const PoyntC = () => {
           <div className="w-full h-full">
             <img
               className="w-full h-full object-cover rounded-2xl md:mx-auto lg:mx-0"
-              src="/images/PED_PAX_3-4_BB_gzxui4.webp"
+              src="/images/poyotn.jpg"
               alt="img"
             />
           </div>

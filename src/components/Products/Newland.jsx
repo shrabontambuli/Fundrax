@@ -11,12 +11,10 @@ const Newland = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-5">
           <div className="space-y-10 p-4">
             <h2 className="text-3xl lg:text-5xl font-bold text2">
-              Poynt C Smart Terminal
+            Newland N910 Smart Terminal
             </h2>
             <p className="text-gray-600 text-xl">
-              The Poynt C Smart Terminal is an all-in-one payment solution
-              designed to simplify business operations while enhancing the
-              customer experience. Here are its key features and specifications:
+            The Newland N910 Smart Terminal is a robust and versatile payment solution combining the features of a smart tablet with the durability of a payment terminal. It offers businesses the ability to handle payments efficiently while enhancing customer interaction. Here’s an overview of its key features:
             </p>
             <Link to="/contact">
               <button className="btn1 mt-12">Get Started</button>
@@ -25,7 +23,7 @@ const Newland = () => {
           <div className="w-full h-full">
             <img
               className="w-full h-full object-cover rounded-2xl md:mx-auto lg:mx-0"
-              src="/images/poyotn.jpg"
+              src="/images/n910.jpg"
               alt="img"
             />
           </div>
