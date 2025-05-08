@@ -65,23 +65,23 @@ export const router = createBrowserRouter([
         element: <Duo/>,
       },
       {
-        path: "/android",
+        path: "/a920-android",
         element: <ADesk/>,
       },
       {
-        path: "/desktop",
+        path: "/a80-andriod",
         element: <ADesk2/>,
       },
       {
-        path: "/counter",
+        path: "/desk",
         element: <Desk/>
       },
       {
-        path: "/wireless",
+        path: "/move",
         element: <Move/>
       },
       {
-        path: "/smart",
+        path: "/newland",
         element: <Newland/>,
       },
       {

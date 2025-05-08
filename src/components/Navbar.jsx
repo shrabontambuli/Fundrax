@@ -132,7 +132,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/androidv"
+                          to="/a920-android"
                         >
                           A920 Android SmartPOS
                         </NavLink>
@@ -146,7 +146,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/desktop"
+                          to="/a80-andriod"
                         >
                           A80 Android Desktop
                         </NavLink>
@@ -160,7 +160,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/counter"
+                          to="/desk"
                         >
                           Desk/5000 Countertop Terminal
                         </NavLink>
@@ -174,7 +174,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/wireless"
+                          to="/move"
                         >
                           Move/5000 Wireless Terminal
                         </NavLink>
@@ -188,7 +188,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/smart"
+                          to="/newland"
                         >
                           Newland N910 Smart Terminal
                         </NavLink>
@@ -442,7 +442,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/android"
+                        to="/a920-android"
                         onClick={closeAllDetails}
                       >
                         A920 Android SmartPOS
@@ -457,7 +457,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/desktop"
+                        to="/a80-andriod"
                         onClick={closeAllDetails}
                       >
                         A80 Android Desktop
@@ -472,7 +472,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/counter"
+                        to="/desk"
                         onClick={closeAllDetails}
                       >
                         Desk/5000 Countertop Terminal
@@ -487,7 +487,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/wireless"
+                        to="/move"
                         onClick={closeAllDetails}
                       >
                         Move/5000 Wireless Terminal
@@ -502,7 +502,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/smart"
+                        to="/newland"
                         onClick={closeAllDetails}
                       >
                         Newland N910 Smart Terminal
