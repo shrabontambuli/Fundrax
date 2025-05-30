@@ -71,7 +71,7 @@ const HeroSection = () => {
                 </div>
               ))}
             </div> */}
-            <Link to="/contact">
+            <Link to="/contact" className="w-60">
               <button className="btn1 w-60">{banners[currentIndex].btn}</button>
             </Link>
           </div>

@@ -9,12 +9,12 @@ const Banner = () => {
         "Vendrax, your gateway to maximizing revenue through our ISO/Reseller Program. As an ISO, you can leverage our industry expertise and robust infrastructure to focus solely on sales while we handle all post-sale services.",
       btn: "Get Started",
       imageUrl: "https://www.vendrax.com/assets/images/slide1.jpg",
-      points: [
-        "Apparel Stores",
-        "Electronic Retailers",
-        "Food & Beverage Wholesalers",
-        "Auto Repair Shops",
-      ],
+      // points: [
+      //   "Apparel Stores",
+      //   "Electronic Retailers",
+      //   "Food & Beverage Wholesalers",
+      //   "Auto Repair Shops",
+      // ],
     },
     {
       id: 2,
@@ -23,12 +23,12 @@ const Banner = () => {
         "Join our partnership programs and start earning today! Whether you refer clients, become an authorized agent, or partner as an ISO reseller, Vendrax offers lucrative opportunities for you to earn incentives and revenue shares. Explore our flexible partnership options tailored to maximize your earnings and grow your business with us",
       btn: "Submit Referral",
       imageUrl: "https://www.vendrax.com/assets/images/home-banner.webp",
-      points: [
-        "Retail Chains",
-        "Restaurants",
-        "E-commerce Platforms",
-        "Local Businesses",
-      ],
+      // points: [
+      //   "Retail Chains",
+      //   "Restaurants",
+      //   "E-commerce Platforms",
+      //   "Local Businesses",
+      // ],
     },
   ];
 
@@ -59,7 +59,7 @@ const Banner = () => {
             </p>
 
             {/* Bullet Points */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-8">
+            {/*<div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-8">
               {banners[currentIndex].points?.map((point, idx) => (
                 <div key={idx} className="flex items-center space-x-2">
                   <span className="text-green-400">
@@ -68,7 +68,7 @@ const Banner = () => {
                   <span className="text2">{point}</span>
                 </div>
               ))}
-            </div>
+            </div>*/}
 
             <button className="btn1 w-60">{banners[currentIndex].btn}</button>
           </div>
